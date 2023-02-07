@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  padding: 5px 5px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+.winner {
+  display: inline;
+  color: red;
+  font-size: 20px;
+}
+
+.none {
+  display: none;
+}
+
+.timer {
+  float: right;
+  margin-right: 20px;
+}

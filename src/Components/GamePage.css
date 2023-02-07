@@ -1,0 +1,27 @@
+.gamepage {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  text-align: center;
+
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+
+  width: 100px;
+  border: 1px solid #3e3e3e;
+}
+
+.menu > li {
+  margin: 0;
+
+  color: white;
+  background-color: #3e3e3e;
+}
+
+.menu > li:hover {
+  cursor: pointer;
+  background-color: #252525;
+}
